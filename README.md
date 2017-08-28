@@ -12,4 +12,4 @@ Este projeto utiliza:
 
 # Instalação
 
-    `npm install`
+`npm install`
