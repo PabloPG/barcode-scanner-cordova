@@ -1,0 +1,14 @@
+<div class="container">
+
+    <ul>
+        <li ng-repeat="l in lista">
+        {{l}}
+        <small class="close" ng-click="remove(l)">remove</small>
+        </li>
+    </ul>
+
+
+    <div class="fixed-btn">
+        <a href="javascript:void(0)" ng-click="capture()" class="floating-btn"><i class="material-icons">add</i></a>
+    </div>
+</div>

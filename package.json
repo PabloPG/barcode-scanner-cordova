@@ -1,0 +1,28 @@
+{
+    "name": "br.pablogil.barcode",
+    "displayName": "Barcode",
+    "version": "1.0.0",
+    "description": "Leitor de código de barras",
+    "main": "index.js",
+    "author": "Pablo Gil @oficinapps",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-whitelist": "^1.3.2",
+        "phonegap-plugin-barcodescanner": "^6.0.8"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "phonegap-plugin-barcodescanner": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": "/PabloPG/barcode-scanner-cordova",
+    "license": "MIT",
+    "scripts": {
+        "test": ""
+    }
+}
